@@ -1,0 +1,290 @@
+/***RESETS***/
+*{
+	margin:0;
+	padding:0;
+}
+html, body, h1, h2, h3, h4, ul, li{
+	margin:0;
+	padding:0;
+}
+h1 img{
+	display:block;
+}
+img{
+	border:0;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+.nf{
+	clear:both;
+}
+.active{
+	background: #c30075;	
+	padding: 5px 10px;
+	border-radius:3px ;
+	border:1px solid #e32e9b;
+	box-shadow:0 -1px 1px rgba(0,0,0,0.5) inset;
+}
+
+/***CABECERA***/
+
+header{
+	background: url(../images/bg-header.jpg);
+	height: 320px;
+}
+	#cont-header{
+		width: 960px;
+		margin: 0	auto;
+	}	
+		nav{
+			padding-top: 20px;
+
+		}
+			nav ul{
+				list-style:none;
+			}
+				nav ul li{
+					display:inline-block;
+					margin-right: 30px;
+				}
+					nav ul li a{
+						font-family:"Times New Roman", arial;
+						font-weight: bold;
+						font-size: 18px;
+						color:#fefef6;
+						text-decoration: none;
+					}
+						nav a:hover{
+							color:#fbe1a2;
+						}
+#logo{
+	background: url(../images/logo.gif);
+	height: 163px;
+	margin: 40px 0 0 25px;
+	width:301px;
+}
+
+/****SUBCABECERA***/
+#subheader{
+	background:#C30075;
+}
+	#cont-subheader{
+		width:960px;
+		margin:0 auto;
+		position: relative;
+		height: 340px
+	}
+	article#destacada{
+		padding-top: 5px;
+	}
+		article#destacada ul{
+		list-style: none;
+		}
+			article#destacada ul li{
+				display: inline-block;
+				margin-right: 10px;
+			}
+				article#destacada img{
+					border: 2px solid #e07cb3;
+				}
+		.specialbutton{
+			background: #f2e7cb;
+			padding: 13px 18px;
+			box-shadow:7px 0  10px rgba(0,0,0,0.5);
+			text-shadow:2px 3px 2px rgb(255,255,255,1);
+			text-decoration: none;
+			color:#513c08;
+			border-radius: 5px;
+			font-size: 30px;
+			font-weight: bold;
+			font-style: italic;
+			font-family: "Times New Roman", arial;
+			position:absolute;
+			top:297px;
+			left:80px;
+		}		
+	#imgdestacada{
+		position:absolute;
+		top:-179px;
+		left: 523px;
+	}
+		#imgdestacada span{
+			font-size: 25px;
+			color:#f085c5;
+			text-shadow:0 0 1px rgba(255,255,255.0.5);
+		}
+
+/***CONTENIDO***/	
+
+#cont-content{
+	width:960px;
+	margin:0 auto;
+	background: #fefef6;
+}
+	ul#galeria{
+		list-style: none;
+		padding-top: 50px;
+		width:460px;
+		text-align: center;
+		float: left;
+	}	
+	ul#galeria a[title="view all flow"]{
+		color: #857b63;
+		font-weight: bold;
+		font-family: "Times New Roman", arial;
+		background: url(../images/icons.gif)no-repeat 2px -62px, 
+					url(../images/icons.gif)no-repeat 131px -81px;
+		padding: 0 31px 0 33px;
+	}
+	ul#galeria li{
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 5px;
+	}
+		ul#galeria li a{
+			color: #857b63;
+			text-decoration: none;
+			font-family: arial;
+		}
+		ul#galeria li img{
+			border:1px solid #dccca5 ;
+			border-radius: 8px;
+		}
+	aside{
+		width: 460px;
+		float:right;
+		padding-top: 20px;
+	}	
+		aside article{
+			border-bottom: 2px solid #918873;
+			color: #9d9582;
+			font-weight: normal;
+			line-height: 24px;
+		}
+			aside article a{
+				color: #9d9582;
+			}
+		aside article h2{
+			color:#918873;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+/***OTROS***/
+
+#otros{
+	background: #c30200;
+}
+	#cont-otros{
+		width: 960px;
+		padding-top: 40px;
+		margin:0 auto;
+		height: 100px
+	}
+
+/***FOOTER***/
+
+footer{
+	background: #c30075;
+}
+	#cont-footer{
+		border-top: 1px	solid #ae036a;
+		width: 960px;
+		padding-top: 40px;
+		margin:0 auto;
+		height: 100px
+	}
+		#socials{
+			width: 300px;
+			float: left;
+			color:#e794c6;
+			font-weight: bold;
+		}
+			#socials p{
+				display: inline-block;
+				vertical-align: top;
+				padding-top: 18px;
+			}
+		#socials .fb{
+			background: url(../images/icons.gif) 0 0;
+			width: 25px;
+			height: 25px;
+			display: inline-block;
+			vertical-align: middle;
+			padding-left: 10px;
+			margin:12px 0 0 10px;
+		}
+		#socials .tw{
+			background: url(../images/icons.gif) 0 -30px ;
+			width: 28px;
+			height: 30px;
+			display: inline-block;
+			vertical-align: middle;
+			padding-left: 10px;
+			margin:12px 0 0 0;
+		}
+		#cr{
+			float: left;
+			position: relative;
+			left: 500px;
+			color:#e794c6;
+			font-weight:normal;
+		}
+
+/*** CODIGOS PARA EL ESCRIP DE CAMBIAR CLASES***/
+
+.noticias{
+	width: 500px;
+	height:500px;
+	border:1px solid black;	
+	font-family: arial;
+	font-size: 10px;
+	color:gray;
+	background: #3c3c3c;
+}
+
+#objetivo{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+
+}
+#objetivoE{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+
+}
+#objetivoEf{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+
+}
+
+#objetivoEfr{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+
+}
+#objetivoEfrr{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+
+}
+#objetivoEfrrr{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+
+}
